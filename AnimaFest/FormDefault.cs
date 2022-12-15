@@ -1,8 +1,8 @@
 namespace AnimaFest
 {
-    public partial class Form1 : Form
+    public partial class FormDefault : Form
     {
-        public Form1()
+        public FormDefault()
         {
             InitializeComponent();
         }
