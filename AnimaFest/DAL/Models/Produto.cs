@@ -9,7 +9,7 @@ namespace AnimaFest.DAL.Models
     public class Produto
     {
         
-        private bool Alugavel{ get; set; }
+        public bool Alugavel{ get; set; }
 
         public int Id { get; set; }
         public string Name { get; set; }

@@ -8,13 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AnimaFest.Forms
+namespace AnimaFest.Forms.GerenciadorProduto
 {
-    public partial class FormMain : Form
+    public partial class FormGerenciadorProduto : FormDefault
     {
-        public FormMain()
+        public FormGerenciadorProduto()
         {
             InitializeComponent();
         }
+
     }
 }
