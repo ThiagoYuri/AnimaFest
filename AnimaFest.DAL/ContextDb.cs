@@ -20,7 +20,7 @@ namespace AnimaFest.DAL
             {
                 //string dbPath = Directory.GetCurrentDirectory() + @"\DAL\db\Database.mdf";
                 //optionsBuilder.UseSqlServer($@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename={dbPath};Integrated Security=True");
-                optionsBuilder.UseSqlServer(@"Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=AnimaFest;Data Source=LAPTOP-I9LM3CSP");
+                optionsBuilder.UseSqlServer(@"Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=AnimaFest;Data Source=LAPTOP-I9LM3CSP;TrustServerCertificate=True");
             }
         }
 
