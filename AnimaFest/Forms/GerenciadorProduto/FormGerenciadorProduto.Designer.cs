@@ -38,7 +38,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnAddProduct = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -153,14 +153,15 @@
             this.button2.Text = "Remover";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnAddProduct
             // 
-            this.button1.Location = new System.Drawing.Point(25, 108);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(124, 45);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Adicionar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnAddProduct.Location = new System.Drawing.Point(25, 108);
+            this.btnAddProduct.Name = "btnAddProduct";
+            this.btnAddProduct.Size = new System.Drawing.Size(124, 45);
+            this.btnAddProduct.TabIndex = 9;
+            this.btnAddProduct.Text = "Adicionar";
+            this.btnAddProduct.UseVisualStyleBackColor = true;
+            this.btnAddProduct.Click += new System.EventHandler(this.btnAddProduct_Click);
             // 
             // button3
             // 
@@ -200,7 +201,7 @@
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnAddProduct);
             this.Controls.Add(this.button3);
             this.Name = "FormGerenciadorProduto";
             this.Text = "FormGerenciadorProduto";
@@ -227,7 +228,7 @@
         private Label label1;
         private DataGridView dataGridView1;
         private Button button2;
-        private Button button1;
+        private Button btnAddProduct;
         private Button button3;
         private Button button6;
         private PictureBox pictureBox1;

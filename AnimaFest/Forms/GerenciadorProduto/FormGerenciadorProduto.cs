@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AnimaFest.DAL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,5 +18,10 @@ namespace AnimaFest.Forms.GerenciadorProduto
             InitializeComponent();
         }
 
+        private void btnAddProduct_Click(object sender, EventArgs e)
+        {
+            ContextDb context = new ContextDb();
+            //context.Produto
+        }
     }
 }

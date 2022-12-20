@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimaFest", "AnimaFest\AnimaFest.csproj", "{C5074506-054F-4DF7-8553-A9C806A65AF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimaFest", "AnimaFest\AnimaFest.csproj", "{C5074506-054F-4DF7-8553-A9C806A65AF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimaFest.DAL", "AnimaFest.DAL\AnimaFest.DAL.csproj", "{13903A9F-CC90-4F62-B0E7-7011ADFAC962}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C5074506-054F-4DF7-8553-A9C806A65AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5074506-054F-4DF7-8553-A9C806A65AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5074506-054F-4DF7-8553-A9C806A65AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13903A9F-CC90-4F62-B0E7-7011ADFAC962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13903A9F-CC90-4F62-B0E7-7011ADFAC962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13903A9F-CC90-4F62-B0E7-7011ADFAC962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13903A9F-CC90-4F62-B0E7-7011ADFAC962}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
