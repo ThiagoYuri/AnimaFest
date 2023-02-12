@@ -11,7 +11,7 @@ namespace AnimaFest.DAL.Models
     public class Alocacao 
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        public int Id { get; private set; }
 
         [Required, MinLength(2), MaxLength(200)]
         public string NomeCliente { get; set; }

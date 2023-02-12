@@ -13,5 +13,26 @@
     <Compile Update="Forms\GerenciadorProduto\FormGerenciadorProduto.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\Gerenciador\FormGerenciador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Gerenciador\Opcoes\FormParametros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Gerenciador\Opcoes\Parametros\UserControlBool.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\Gerenciador\Opcoes\Parametros\UserControlDate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\Gerenciador\Opcoes\Parametros\UserControlDefault.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\Gerenciador\Opcoes\Parametros\UserControlObjects.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\Gerenciador\Opcoes\Parametros\UserControlTxb.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
